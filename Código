@@ -1,7 +1,7 @@
 using JuMP, Ipopt, LinearAlgebra, Plots
 
 L = 500                             #Tamanho da viga em cm
-N = 27                              #Número de segmentos
+N = 15                              #Número de segmentos
 P = 50000                           #Carga pontual em Newtons
 E = 200                             #Módulo da elasticidade
 Lj = (L/N)                          #Tamanho de cada segmento
